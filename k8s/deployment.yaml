@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: yourusername/nodejs-argocd-demo:v1.0.0
+        image: faridibn/argocd:v1
         ports:
         - containerPort: 3000
         env:
